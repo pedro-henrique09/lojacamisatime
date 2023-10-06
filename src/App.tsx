@@ -3,7 +3,7 @@ import { Navbar } from "./components/navbar";
 import { Contador } from "./components/item-count";
 import { ItemList } from "./components/item-list";
 import { useEffect, useState } from "react";
-
+import { ItemDetailContainer } from "./components/item-detail-container";
 import produtos from "./data/produtos.json";
 import { Loader2Icon } from "lucide-react";
 
@@ -51,6 +51,7 @@ function App() {
           <ItemList items={items} />
         </>
       )}
+      <ItemDetailContainer />
     </div>
   );
 }
