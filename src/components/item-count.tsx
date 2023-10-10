@@ -24,8 +24,8 @@ export function Contador({ initial, stock, onAdd }: ContadorProps) {
   }
 
   return (
-    <div className="flex flex-col items-center">
-      <div className="flex items-center justify-between w-20 m-auto p-1 rounded border border-solid border-black ">
+    <div className="flex flex-col ">
+      <div className="flex items-center justify-between w-20 mr-auto p-1 rounded border border-solid border-black ">
         <div>
           <button
             disabled={count === 1}
@@ -50,7 +50,7 @@ export function Contador({ initial, stock, onAdd }: ContadorProps) {
       </div>
       <button
         onClick={addToCart}
-        className="bg-indigo-500 hover:bg-indigo-600 text-white font-bold my-2 py-2 px-4 rounded"
+        className="bg-indigo-500 mr-auto mt-16 hover:bg-indigo-600 text-white font-bold my-2 py-2 px-4 rounded"
         type="button"
       >
         Adicionar ao carrinho
