@@ -6,7 +6,7 @@ interface ContadorProps {
   onAdd: (amount: number) => void;
 }
 
-export function Contador({ initial, stock, onAdd }: ContadorProps) {
+export function ItemCount({ initial, stock, onAdd }: ContadorProps) {
   const [count, setCount] = useState<number>(initial);
 
   function diminuir() {

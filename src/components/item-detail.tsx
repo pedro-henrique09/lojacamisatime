@@ -1,5 +1,5 @@
-import { Contador } from "./item-count";
-import Rating from "./star-avaliation";
+import { ItemCount } from "./item-count";
+import Rating from "./rating";
 import { Product } from "../types/product";
 interface ItemDetailProps {
   item: Product;
@@ -55,7 +55,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
           <label htmlFor="amount" className="mr-2 my-2  justify-center">
             Quantidade:
           </label>
-          <Contador
+          <ItemCount
             initial={1}
             stock={5}
             onAdd={(amount) => {
