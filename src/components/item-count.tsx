@@ -1,20 +1,21 @@
 import { useState } from "react";
+import { Link } from "react-router-dom";
 
-interface ContadorProps {
+interface ItemCountProps {
   stock: number;
   initial: number;
   onAdd: (amount: number) => void;
 }
 
-export function ItemCount({ initial, stock, onAdd }: ContadorProps) {
-  const [count, setCount] = useState<number>(initial);
+export function ItemCount({ initial, stock, onAdd }: ItemCountProps) {
+  const [count, setCount] = useState(initial);
 
-  function diminuir() {
+  function decrease() {
     setCount((atual) => atual - 1);
     console.log("Diminuiu o produto");
   }
 
-  function aumentar() {
+  function increase() {
     setCount((atual) => atual + 1);
     console.log("Aumentou o produto");
   }
@@ -31,7 +32,7 @@ export function ItemCount({ initial, stock, onAdd }: ContadorProps) {
             disabled={count === 1}
             className="cursor-pointer flex items-center bg-transparent"
             type="button"
-            onClick={diminuir}
+            onClick={decrease}
           >
             -
           </button>
@@ -42,19 +43,23 @@ export function ItemCount({ initial, stock, onAdd }: ContadorProps) {
             disabled={count === stock}
             className="cursor-pointer flex items-center bg-transparent"
             typeof="button"
-            onClick={aumentar}
+            onClick={increase}
           >
             +
           </button>
         </div>
       </div>
-      <button
+      <p className="text-sm text-zinc-500 mt-1 ">
+        Quantidade disponivel: {stock}
+      </p>
+      <Link
+        to={"/cart"}
         onClick={addToCart}
-        className="bg-indigo-500 mr-auto mt-16 hover:bg-indigo-600 text-white font-bold my-2 py-2 px-4 rounded"
+        className="bg-indigo-500  mt-8 hover:bg-indigo-600 text-white font-bold my-2 py-2 px-4 rounded"
         type="button"
       >
         Adicionar ao carrinho
-      </button>
+      </Link>
     </div>
   );
 }

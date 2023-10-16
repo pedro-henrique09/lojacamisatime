@@ -4,14 +4,15 @@
     "nome": "Camisa Brasil 1",
     "preco": 600,
     "id": 18,
-    "description": "A Camisa do Flamengo para 2023 é uma verdadeira obra-prima do design esportivo. Inspirada na paixão e na história rica do clube, esta camisa é uma fusão perfeita entre tradição e inovação. Com sua base rubro-negra icônica, esta camisa incorpora o orgulho e a identidade que os torcedores do Flamengo conhecem e amam.",
+    "description": "Assim como outras camisas da nossa coleção Stadium, esse modelo combina detalhes de design de réplica com tecido que absorve o suor para oferecer um visual preparado para o jogo e inspirado no seu time favorito.",
     "imagemUrl": [
-      "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00ff5c5cd3af4731b432af7900fcab9f_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_21_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/994059177c134ea583d4af7900fcb5d0_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_23_hover_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f9fdb35764b480db8daaf7900fcc034_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_25_model.jpg"
+      "https://imgnike-a.akamaihd.net/768x768/0228340L.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/0228340LA1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/0228340LA4.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/0228340LA3.jpg"
     ],
     "installments": 10,
+    "stock": 53,
     "sizes": ["P", "M", "G", "GG"]
   },
   {
@@ -19,11 +20,12 @@
     "nome": "Camisa Brasil 2",
     "preco": 600,
     "id": 19,
+    "stock": 53,
     "imagemUrl": [
-      "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00ff5c5cd3af4731b432af7900fcab9f_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_21_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/994059177c134ea583d4af7900fcb5d0_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_23_hover_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f9fdb35764b480db8daaf7900fcc034_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_25_model.jpg"
+      "https://imgnike-a.akamaihd.net/768x768/02284415.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/02284415A1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/02284415A5.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/02284415A3.jpg"
     ],
     "installments": 10,
     "sizes": ["P", "M", "G", "GG"]
@@ -33,11 +35,12 @@
     "nome": "Camisa Brasil 3",
     "preco": 600,
     "id": 20,
+    "stock": 53,
     "imagemUrl": [
-      "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00ff5c5cd3af4731b432af7900fcab9f_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_21_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/994059177c134ea583d4af7900fcb5d0_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_23_hover_model.jpg",
-      "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/2f9fdb35764b480db8daaf7900fcc034_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_25_model.jpg"
+      "https://imgnike-a.akamaihd.net/768x768/00479451.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/00479451A1.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/00479451A3.jpg",
+      "https://imgnike-a.akamaihd.net/768x768/00479451A4.jpg"
     ],
     "installments": 10,
     "sizes": ["P", "M", "G", "GG"]
@@ -47,6 +50,7 @@
     "nome": "Camisa flamengo casa",
     "preco": 120,
     "id": 1,
+    "stock": 53,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00ff5c5cd3af4731b432af7900fcab9f_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_21_model.jpg",
@@ -61,7 +65,7 @@
     "imagem": "data:image/jpeg;base64,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",
     "nome": "Camisa flamengo visitante",
     "preco": 120,
-
+    "stock": 53,
     "id": 2,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -77,7 +81,7 @@
     "imagem": "data:image/jpeg;base64,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",
     "nome": "Camisa flamengo retro",
     "preco": 120,
-
+    "stock": 53,
     "id": 3,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -94,6 +98,7 @@
     "nome": "Casaco Flamengo 2023",
     "preco": 499,
     "id": 4,
+    "stock": 53,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
       "https://assets.adidas.com/images/h_840,f_auto,q_auto,fl_lossy,c_fill,g_auto/00ff5c5cd3af4731b432af7900fcab9f_9366/Camisa_1_CR_Flamengo_23-24_Vermelho_HS5184_21_model.jpg",
@@ -108,7 +113,7 @@
     "imagem": "https://static.netshoes.com.br/produtos/camisa-fluminense-i-2324-sn-torcedor-umbro-masculina/10/2IA-4991-410/2IA-4991-410_zoom1.jpg?ts=1683554493&ims=544x",
     "nome": "Camisa fluminense casa",
     "preco": 120,
-
+    "stock": 80,
     "id": 5,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -124,7 +129,7 @@
     "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/159400/U31FL01664_245_01.jpg?v=638163380239400000",
     "nome": "Camisa Fluminense visitante",
     "preco": 120,
-
+    "stock": 93,
     "id": 6,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -140,7 +145,7 @@
     "imagem": "https://static.netshoes.com.br/produtos/camisa-liga-retro-fluminense-mundial-1952-branca/14/395-7163-014/395-7163-014_zoom1.jpg?ts=1686326083&ims=544x",
     "nome": "Camisa Fluminense retro",
     "preco": 200,
-
+    "stock": 59,
     "id": 7,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -156,7 +161,7 @@
     "imagem": "https://fluminense.vteximg.com.br/arquivos/ids/159543-1000-1000/Jaqueta-01.jpg?v=638211405352670000",
     "nome": "Casaco Fluminense ",
     "preco": 499,
-
+    "stock": 23,
     "id": 8,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -172,7 +177,7 @@
     "imagem": "https://shoxstore.com.br/media/catalog/product/cache/1/image/9df78eab33525d08d6e5fb8d27136e95/c/_/c_pia_de_rmcfmz0126_01_bcd7feb2-068b-4e9f-8cb7-be9b8fbcdc5b.jpg.jpg",
     "nome": "Camisa Real Madrid 1",
     "preco": 300,
-
+    "stock": 254,
     "id": 9,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -188,7 +193,7 @@
     "imagem": "https://images.tcdn.com.br/img/img_prod/1044362/camisa_real_madrid_ii_22_23_adidas_torcedor_masculina_roxa_1729_1_f561e40358c223d099cf45fc5498767b.jpg",
     "nome": "Camisa Real Madrid 2",
     "preco": 300,
-
+    "stock": 23,
     "id": 10,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -204,7 +209,7 @@
     "imagem": "https://static3.tcdn.com.br/img/img_prod/311840/jaqueta_de_chuva_adidas_real_madrid_2023_102588_1_c1b2500b5a6efeb944eb7dffb6b42907.jpg",
     "nome": "Casaco Real Madrid 2023",
     "preco": 599,
-
+    "stock": 20,
     "id": 11,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -220,7 +225,7 @@
     "imagem": "https://imgnike-a.akamaihd.net/768x768/02614115.jpg",
     "nome": "Camisa Barcelona 1",
     "preco": 300,
-
+    "stock": 59,
     "id": 12,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -236,7 +241,7 @@
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRA4RGx6xfOXXjDGrPBuOnds_a_XI5G3JOPIUo6Fjt0YTA8Ri3o-03zry6t_OFiK9LU2ng&usqp=CAU",
     "nome": "Camisa Barcelona 2",
     "preco": 300,
-
+    "stock": 535,
     "id": 13,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -252,7 +257,7 @@
     "imagem": "https://static3.tcdn.com.br/img/img_prod/311840/180_jaqueta_barcelona_azul_e_vermelha_118279_1_92ef305bc58cd4465f9d3758bf1ea3e4.jpg",
     "nome": "Casaco Barcelona 2023",
     "preco": 599,
-
+    "stock": 527,
     "id": 14,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -268,7 +273,7 @@
     "imagem": "https://d3ugyf2ht6aenh.cloudfront.net/stores/002/152/760/products/camisa-botafogo-reebook-oficial1-02473b3b0c0bcf15f116825354841767-640-0.jpeg",
     "nome": "Camisa Botafogo Casa 2023",
     "preco": 300,
-
+    "stock": 153,
     "id": 15,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -284,7 +289,7 @@
     "imagem": "https://http2.mlstatic.com/D_NQ_NP_2X_961184-MLB70745539120_072023-F.webp",
     "nome": "Camisa Botafogo Visitante 2023",
     "preco": 300,
-
+    "stock": 763,
     "id": 16,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",
@@ -300,7 +305,7 @@
     "imagem": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQPhRTTizIRnj4XUrpmj2IsgKUjZWz7aOTgtA&usqp=CAU",
     "nome": "Casaco Botafogo 2023",
     "preco": 499,
-
+    "stock": 33,
     "id": 17,
     "imagemUrl": [
       "https://static.netshoes.com.br/produtos/camisa-flamengo-i-2324-sn-torcedor-adidas-masculina/68/FB8-4631-068/FB8-4631-068_zoom1.jpg?ts=1695701573&ims=544x",

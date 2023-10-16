@@ -1,12 +1,8 @@
+import { Product } from "../types/product";
 import { Item } from "./item";
 
 interface ItemListProps {
-  items: {
-    imagem: string;
-    nome: string;
-    preco: number;
-    id: number;
-  }[];
+  items: Product[];
 }
 
 const ItemList: React.FC<ItemListProps> = (props) => {
