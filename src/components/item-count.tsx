@@ -1,5 +1,4 @@
 import { useState } from "react";
-import { Link } from "react-router-dom";
 
 interface ItemCountProps {
   stock: number;
@@ -52,14 +51,13 @@ export function ItemCount({ initial, stock, onAdd }: ItemCountProps) {
       <p className="text-sm text-zinc-500 mt-1 ">
         Quantidade disponivel: {stock}
       </p>
-      <Link
-        to={"/cart"}
+      <button
         onClick={addToCart}
         className="bg-indigo-500  mt-8 hover:bg-indigo-600 text-white font-bold my-2 py-2 px-4 rounded"
         type="button"
       >
         Adicionar ao carrinho
-      </Link>
+      </button>
     </div>
   );
 }

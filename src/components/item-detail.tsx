@@ -1,13 +1,17 @@
 import { ItemCount } from "./item-count";
 import Rating from "./rating";
 import { Product } from "../types/product";
-import { useState } from "react";
+
+import { useCart } from "../contexts/cart-context";
+
 interface ItemDetailProps {
   item: Product;
 }
 
 export function ItemDetail({ item }: ItemDetailProps) {
-  const [added, setAdded] = useState(false);
+  const cart = useCart();
+  const inCart = cart.isInCart(item.id);
+
   return (
     <div className="flex gap-4  ">
       <div className="grid place-content-start flex-1 grid-cols-2 md:grid-cols-4 gap-4">
@@ -54,7 +58,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
           </select>
         </div>
 
-        {!added && (
+        {!inCart && (
           <div className="flex flex-col mb-4">
             <label htmlFor="amount" className="mr-2 my-2  justify-center">
               Quantidade:
@@ -63,8 +67,13 @@ export function ItemDetail({ item }: ItemDetailProps) {
               initial={1}
               stock={item.stock}
               onAdd={(amount) => {
-                alert(`Adicionou ${amount} camisas ao carrinho`);
-                setAdded(true);
+                cart.addItem({
+                  id: item.id,
+                  imageUrl: item.imagemUrl[0],
+                  name: item.nome,
+                  price: item.preco,
+                  quantity: amount,
+                });
               }}
             />
           </div>

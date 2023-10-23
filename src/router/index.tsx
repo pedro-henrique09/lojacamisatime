@@ -3,7 +3,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import Home from "../pages/home";
 import { Header } from "../components/header";
 import ProductPage from "../pages/product";
-import { Cart } from "../pages/cart";
+import Cart from "../pages/cart";
 
 const Routers = () => {
   return (

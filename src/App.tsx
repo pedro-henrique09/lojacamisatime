@@ -1,7 +1,12 @@
+import { CartProvider } from "./contexts/cart-context";
 import { Routers } from "./router";
 
 function App() {
-  return <Routers />;
+  return (
+    <CartProvider>
+      <Routers />;
+    </CartProvider>
+  );
 }
 
 export default App;

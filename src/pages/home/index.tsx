@@ -5,8 +5,7 @@ import { ItemList } from "../../components/item-list";
 import { ItemListContainer } from "../../components/item-list-container";
 import produtos from "../../data/produtos.json";
 import { Input } from "../../components/input";
-
-type Product = (typeof produtos)[number];
+import { Product } from "../../types/product";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);

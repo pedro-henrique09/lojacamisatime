@@ -1,34 +1,35 @@
+import { Link } from "react-router-dom";
 import { CartWidget } from "./cart-widget";
 
 export function Header() {
   return (
     <header className="bg-blue-600 md:flex shadow">
       <div className="container mx-auto  py-6 flex justify-between items-center">
-        <a href="/">
+        <Link to="/">
           <h1 className="text-2xl font-bold text-black-600">CoderHouse Shop</h1>
-        </a>
+        </Link>
 
         <nav>
           <ul className="flex space-x-4 text-black-600">
             <li>
-              <a href="/" className="hover:text-indigo-100">
+              <Link to="/" className="hover:text-indigo-100">
                 Home
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-indigo-100">
+              <Link to="/shop" className="hover:text-indigo-100">
                 Shop
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-indigo-100">
+              <Link to="/about" className="hover:text-indigo-100">
                 About
-              </a>
+              </Link>
             </li>
             <li>
-              <a href="#" className="hover:text-indigo-100">
+              <Link to="/contact" className="hover:text-indigo-100">
                 Contact
-              </a>
+              </Link>
             </li>
           </ul>
         </nav>
