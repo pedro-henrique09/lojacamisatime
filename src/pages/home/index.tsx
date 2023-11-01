@@ -3,9 +3,10 @@ import { useState, useEffect } from "react";
 
 import { ItemList } from "../../components/item-list";
 import { ItemListContainer } from "../../components/item-list-container";
-import produtos from "../../data/produtos.json";
+
 import { Input } from "../../components/input";
 import { Product } from "../../types/product";
+import { collection, getDocs, getFirestore } from "firebase/firestore";
 
 const Home = () => {
   const [loading, setLoading] = useState(false);
@@ -13,20 +14,17 @@ const Home = () => {
   const [inputValue, setInputValue] = useState(" ");
 
   useEffect(() => {
-    const handleGetCards = () => {
-      return new Promise<Product[]>((resolve) => {
-        setTimeout(() => {
-          resolve(produtos);
-        }, 2000);
+    setLoading(true);
+    const db = getFirestore();
+
+    const productsCollection = collection(db, "products");
+    getDocs(productsCollection)
+      .then((snapshot) => {
+        setItems(snapshot.docs.map((doc) => ({ id: doc.id, ...doc.data() })));
+      })
+      .finally(() => {
+        setLoading(false);
       });
-    };
-    const onMount = async () => {
-      setLoading(true);
-      const result = await handleGetCards();
-      setItems(result);
-      setLoading(false);
-    };
-    onMount();
   }, []);
   const filtereditems = !inputValue.length
     ? items

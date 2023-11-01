@@ -1,12 +1,12 @@
 import { useParams } from "react-router-dom";
-import produtos from "../../data/produtos.json";
 
 import { ItemDetail } from "../../components/item-detail";
 import { useEffect, useState } from "react";
-import { wait } from "../../util/wait";
+
 import { Product } from "../../types/product";
 import { ItemDetailContainer } from "../../components/item-detail-container";
 import { Loader2Icon } from "lucide-react";
+import { doc, getDoc, getFirestore } from "firebase/firestore";
 
 const ProductPage = () => {
   const { id } = useParams();
@@ -14,17 +14,19 @@ const ProductPage = () => {
   const [item, setItem] = useState<Product>();
 
   useEffect(() => {
-    async function getItem() {
-      setLoading(true);
-      await wait(2000);
-      const product = produtos.find((produto) => {
-        return produto.id.toString() === id;
-      });
-      setItem(product);
-      setLoading(false);
-    }
+    setLoading(true);
+    const db = getFirestore();
 
-    getItem();
+    const productRef = doc(db, "products", String(id));
+    getDoc(productRef)
+      .then((snapshot) => {
+        if (snapshot.exists()) {
+          setItem({ id: snapshot.id, ...snapshot.data() });
+        }
+      })
+      .finally(() => {
+        setLoading(false);
+      });
   }, [id]);
   if (loading) {
     return (

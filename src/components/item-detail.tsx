@@ -3,6 +3,7 @@ import Rating from "./rating";
 import { Product } from "../types/product";
 
 import { useCart } from "../contexts/cart-context";
+import { useState } from "react";
 
 interface ItemDetailProps {
   item: Product;
@@ -11,6 +12,8 @@ interface ItemDetailProps {
 export function ItemDetail({ item }: ItemDetailProps) {
   const cart = useCart();
   const inCart = cart.isInCart(item.id);
+
+  const [selectedSize, setSelectedSize] = useState("");
 
   return (
     <div className="flex gap-4  ">
@@ -47,7 +50,15 @@ export function ItemDetail({ item }: ItemDetailProps) {
           <label htmlFor="size" className="mr-2 my-2  justify-center">
             Tamanho:
           </label>
-          <select id="size" className="border mr-auto  p-2 text-sm rounded-md">
+          <select
+            id="size"
+            value={selectedSize}
+            onChange={(e) => {
+              setSelectedSize(e.target.value);
+            }}
+            className="border mr-auto  p-2 text-sm rounded-md"
+          >
+            <option value={""}>Selecione o tamanho:</option>
             {item.sizes.map((size) => {
               return (
                 <option key={size} value={size}>
@@ -73,6 +84,7 @@ export function ItemDetail({ item }: ItemDetailProps) {
                   name: item.nome,
                   price: item.preco,
                   quantity: amount,
+                  size: selectedSize,
                 });
               }}
             />

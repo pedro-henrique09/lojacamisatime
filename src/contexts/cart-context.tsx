@@ -6,6 +6,7 @@ interface CartItem {
   price: number;
   imageUrl: string;
   id: number;
+  size: string;
 }
 
 interface CartContextProps {
